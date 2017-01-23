@@ -1,4 +1,4 @@
-# HDDevelopWebsite
+# PoodleGuard
 4 pages Due Jan 30
 	* homepage
 	* contact us
