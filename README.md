@@ -21,3 +21,5 @@ Contact Us
 
 == Other Notes ==
 -- 1st page: index.html (pages should be single-name)
+
+Use w3c validator
