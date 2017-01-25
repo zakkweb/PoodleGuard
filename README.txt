@@ -4,6 +4,13 @@
 	* contact us
 	* about us
 	* classes
+	
+///MUST-HAVES FOR ASSIGNMENT:///
+* everything in a basic HTML template (DOCTYPE, head and title, body, etc)
+* some headings (H1-6)
+* paragraphs (p)
+* lists (ol, ul...li)
+* something in CSS
 
 The client (Dr. Webster) wants...
 Poodle training school -- "they're great watchdogs"
@@ -21,3 +28,5 @@ Contact Us
 
 == Other Notes ==
 -- 1st page: index.html (pages should be single-name)
+
+Use w3c validator
