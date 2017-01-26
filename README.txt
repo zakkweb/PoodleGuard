@@ -7,8 +7,9 @@
 	
 ///MUST-HAVES FOR ASSIGNMENT:///
 * everything in a basic HTML template (DOCTYPE, head and title, body, etc)
+* navigation with links to other pages
 * some headings (H1-6)
-* paragraphs (p)
+* paragraphs (p) and breaks in text (br)
 * lists (ol, ul...li)
 * something in CSS
 
