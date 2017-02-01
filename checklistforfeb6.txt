@@ -16,3 +16,6 @@
 16. Configure text within an ordered or unordered list using CSS.
 17. Demonstrate use of CSS Class, id, and Descendent Selectors.
 18. Include an image, sized appropriately.
+
+
+* = done
