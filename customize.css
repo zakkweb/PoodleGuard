@@ -1,1 +1,28 @@
-**to be use for external style sheet**
+	body{
+	  background-image:url("http://www.hddevelop.com/images/dogtraining.jpg");
+	  background-repeat: no-repeat;
+	  background-position: 90% 50%;
+	  background-attachment: fixed;
+	  font-family: Verdana, sans-serif;
+	}
+	
+	.center{
+	  text-align: center;
+	}
+	
+	/* Styles the header and footer */
+	.bars{
+	  background-color: gray;
+	  color:white;
+	  padding: 25px 0px 25px 0px;
+	  border: none;
+	  }
+
+	.content{
+	  padding: 25px 100px;
+	  width: 65%;
+	}
+	
+	p, h3{
+	  padding: 0px 25px;
+	}
