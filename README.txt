@@ -1,33 +1,7 @@
-# PoodleGuard
-4 pages Due Jan 30
-	* homepage
-	* contact us
-	* about us
-	* classes
-	
-///MUST-HAVES FOR ASSIGNMENT:///
-* everything in a basic HTML template (DOCTYPE, head and title, body, etc)
-* navigation with links to other pages
-* some headings (H1-6)
-* paragraphs (p) and breaks in text (br)
-* lists (ol, ul...li)
-* something in CSS
+Reminders:
+Use w3c validator: https://validator.w3.org/
 
-The client (Dr. Webster) wants...
-Poodle training school -- "they're great watchdogs"
-
-Poodle Security Training School
-* potential clients see what she offers...classes for poodles
-* Classes Offered: etiquette for poodles, "watching things," bark control, attack methods
-
-About Us
-* started 10 years ago, when realized what great dogs they are
-* dog has to be one with credentials (pedigree?)
-
-Contact Us
-* cleveland ms, email (mailto:vwebster@deltastate.edu), address, phone number
-
-== Other Notes ==
--- 1st page: index.html (pages should be single-name)
-
-Use w3c validator
+To-Do List:
+Kristina's changing the nav bar
+!!! Make changes to your assigned pages accordingly, since each is featuring the external stylesheet. 
+!!! May need to make slight changes to external stylesheet
