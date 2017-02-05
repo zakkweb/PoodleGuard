@@ -53,9 +53,8 @@
 	  text-align: center;
 	}
 
-	.content{
-	  padding: 25px 200px;
-	  width: 65%;
+	#content{
+	  padding: 25px 150px;
 	}
 	
 	p, h3{
