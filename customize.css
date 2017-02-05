@@ -1,26 +1,60 @@
 	body{
-	  background-image:url("http://www.hddevelop.com/images/dogtraining.jpg");
-	  background-repeat: no-repeat;
-	  background-position: 90% 50%;
-	  background-attachment: fixed;
+		background-color: lavender;
+	  /* background-image:url("secbadge2.png"), url("secbadge2.png");
+	  background-repeat: repeat-y;
+	  background-position: right top, left top;
+	  background-attachment: fixed; */
 	  font-family: Verdana, sans-serif;
 	  margin: 0;
 	}
 	
+	/************************************************************************************/
+	
+	/* Header, Footer, & Nav */
+	#bars{
+	  background-color: lightslategray;
+	  color:white;
+	  padding: 5px 0px 5px 0px;
+	  }
+	
+	nav ul {
+    margin: 0;
+    padding: 0;
+	}
+
+	nav li{
+		display: inline;
+	}
+	
+	nav li a:link, nav li a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+	margin: 0px 25px 0px 0px;
+	}
+
+	nav li a:hover, nav li a:active{
+    background-color: lightsteelblue;
+	color: black;
+	}
+	
+	#current{ /* use for current page */
+	text-decoration: none;
+	background-color: lightsteelblue;
+	color: black;
+	padding: 5px 5px;
+	margin: 0px 25px 0px 0px;
+	}
+	
+	/************************************************************************************/
+	
+	/* Main Content */
 	.center{
 	  text-align: center;
 	}
-	
-	/* Styles the header and footer */
-	.bars{
-	  background-color: gray;
-	  color:white;
-	  padding: 25px 0px 25px 0px;
-	  border: none;
-	  }
 
 	.content{
-	  padding: 25px 100px;
+	  padding: 25px 200px;
 	  width: 65%;
 	}
 	
