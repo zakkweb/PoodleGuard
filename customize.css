@@ -1,9 +1,9 @@
 	body{
 		background-color: lavender;
-	  /* background-image:url("secbadge2.png"), url("secbadge2.png");
+	  background-image:url("images/bg-left.png"), url("images/bg-right.png");
 	  background-repeat: repeat-y;
-	  background-position: right top, left top;
-	  background-attachment: fixed; */
+	  background-position: left top, right top;
+	  background-attachment: fixed; 
 	  font-family: Verdana, sans-serif;
 	  margin: 0;
 	}
