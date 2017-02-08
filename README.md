@@ -21,24 +21,42 @@ Use
 
 ### Additional Requirements:
 Include `<HR>` element
+
 Include the use of borders and padding
+
 Use CSS Validation
+
 Use a figure caption
+
 Use the HTML5 Meter Element
+
 Use of the HTML5 Progress Element
+
 Use of the background-repeat property
+
 Place all images in an images folder in your public_html folder (you'll have to reference them images/dog.jpg)
+
 Add an image map
+
 Include a favorites icon
+
 Be sure ALL of your images come from a free source AND provide attribution where necessary
+
 Use the background-clip property
+
 Use the background-origin property
+
 Use the background-size property
+
 Use more than one background image on each page within the site
+
 Use the border radius property
+
 Use the box-shadow property
+
 Use of the opacity property
 
 ### CPanel Requirements:
 Setup work email accounts for your team members
+
 Setup up two additional email accounts (sales, support)
