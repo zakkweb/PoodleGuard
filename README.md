@@ -4,12 +4,19 @@ Use w3c validator [here](https://validator.w3.org/)
 ## To-Do List:
 ### Basic Requirements:
 ~~Appropriate use of headers (H1, H2, etc.)~~
+
 ~~Include the following structural elements (header, nav, main, div, & footer)~~
+
 Validate your page using the W3C Markup Validation Service.
+
 ~~Use external style sheets to manage the overall consistency of the site.~~
+
 Demonstrate text configuration with CSS. (font-weight, style, etc.)
+
 ~~Use of CSS Classes, Id's, and Descendant Selectors.~~
+
 Use images appropriately. Don't forget ALT information.
+
 Use 
 
 ### Additional Requirements:
