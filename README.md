@@ -34,11 +34,11 @@ Use of the HTML5 Progress Element
 
 Use of the background-repeat property
 
-Place all images in an images folder in your public_html folder (you'll have to reference them images/dog.jpg)
+~~Place all images in an images folder in your public_html folder (you'll have to reference them images/dog.jpg)~~
 
 Add an image map
 
-Include a favorites icon
+~~Include a favorites icon~~
 
 Be sure ALL of your images come from a free source AND provide attribution where necessary
 
@@ -59,4 +59,4 @@ Use of the opacity property
 ### CPanel Requirements:
 Setup work email accounts for your team members
 
-Setup up two additional email accounts (sales, support)
+~~Setup up two additional email accounts (sales, support)~~
