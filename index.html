@@ -9,14 +9,12 @@
 	<meta charset="utf-8">
 	
 	<style>
-		main{
-		padding: 10px 0px;
-		}
-		
 		h2{ 
 		color: darkblue;
 		word-spacing: 10px;
 		text-shadow: 2px 1px dimgray;
+		text-align: center;
+		font-variant: small-caps;
 		}
 	</style>
 
@@ -24,31 +22,68 @@
 
 
 <body>
-
-	<header class="center bars">
-	  <h1 style="text-align: center"><img src="images/secbadge-sm.png" alt="badge"><img src="images/header.png" alt="Poodle Security Training School"><img src="images/secbadge-sm.png" alt="badge"></h1>
+	<div id="wrap">
+	<header id="header-index" class="center bars">
+		<map name="nav">
+			<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+			<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+			<!-- #$-:Please do not edit lines starting with "#$" -->
+			<!-- #$VERSION:2.3 -->
+			<!-- #$AUTHOR:Kristina -->
+			<area shape="rect" coords="142,95,217,116" alt="Home" href="index.html" />
+			<area shape="rect" coords="308,95,398,116" alt="Classes" href="classes.html" />
+			<area shape="rect" coords="475,95,592,116" alt="About Us" href="about.html" />
+			<area shape="rect" coords="701,96,836,116" alt="Contact Us" href="contact.html" />
+		</map>
+	  <img src="images/header2.png" alt="Poodle Security Training School" usemap="#nav">
 	</header>
 
-	<nav class="center bars">
+	<!-- <nav class="center bars">
 		<ul>
 			<li id="current">Home</li>
 			<li><a href="classes.html">Classes</a></li>
 			<li><a href="about.html">About Us</a></li>
 			<li><a href="contact.html">Contact Us</a></li>
 		</ul>
-	</nav>
+	</nav> -->
 
+	<main>
 	
-	<main class="center">
-	  <h2>Welcome to our website!</h2>
-	<img src="images/policepoodle.jpg" title="Police Poodle" alt="Police Poodle"
-	style="border: 1px solid black; width:360px;height:480px">
+		<div>
+			<figure>
+				<img src="images/policepoodle.jpg" title="Police Poodle" alt="Police Poodle" width="360" height="480"> 
+				<figcaption>Poodle & Police</figcaption>
+			</figure>  
+		</div>
+		
+		<div style="width: 50%;">
+			<h2>Welcome to our website!</h2>
+			<p class="boxbg"> 
+				Our training program is on a quest to provide the best of services to families within 
+				the Bolivar County area. We appreciate all of the local law enforcement departments with their support.
+				We are rendering security training services and looking for trusting families who are looking to adopt a loving guardian.<br><br>
+				You are welcome to join us on our mission to provide loving care to this particular breed!
+				We are quickly approaching our goal of rescuing all abandoned poodles within the area.<br>
+			</p>
+			
+			<br><br>
+			
+			<p class="center">Stray Poodles Rescued:</p>
+			<div style="display:flex; justify-content:space-around;">
+				<div>
+					<progress value ="50" max= "100">50</progress>
+				</div>
+			</div>
+			<p class="center">50 / 100</p>
+			
+		</div>
+		
 	</main>
-	
+	</div> <!--wrap-->
 	
 	<footer class="center bars">
 	  Website by HD Develop &copy; 2017 <b>|</b> Streamlined Solutions.<br />
-	  <span style="font-size: x-small">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></span>
+	  <span style="font-size: x-small">Icons and images made by <a href="http://www.clipartbest.com/">ClipartBest</a>, <a href="http://www.clipartfest.com/">ClipartFest</a>, <a href="http://www.freepik.com">Freepik</a>, <a href="http://www.flaticon.com">FlatIcon</a>, <a href="http://www.thedogist.com/">The Dogist</a></span>
 	</footer>
 
 </body>

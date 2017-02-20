@@ -24,15 +24,13 @@ Include `<HR>` element
 
 Include the use of borders and padding
 
-Use CSS Validation
-
 Use a figure caption
 
-Use the HTML5 Meter Element
+Use the HTML5 Meter Element _(About Us page)_
 
-Use of the HTML5 Progress Element
+Use of the HTML5 Progress Element _(index page)_
 
-Use of the background-repeat property
+~~Use of the background-repeat property~~
 
 ~~Place all images in an images folder in your public_html folder (you'll have to reference them images/dog.jpg)~~
 
@@ -48,7 +46,7 @@ Use the background-origin property
 
 Use the background-size property
 
-Use more than one background image on each page within the site
+~~Use more than one background image on each page within the site~~
 
 Use the border radius property
 
@@ -60,12 +58,3 @@ Use of the opacity property
 Setup work email accounts for your team members
 
 ~~Setup up two additional email accounts (sales, support)~~
-Reminders:
-Use w3c validator: https://validator.w3.org/
-
-To-Do List:
-Check the other checklist
-Kristina's changing the nav bar
-!!! Make changes to your assigned pages accordingly, since each is featuring the external stylesheet. 
-!!! May need to make slight changes to external stylesheet
-
