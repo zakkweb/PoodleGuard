@@ -104,6 +104,7 @@
 	.center{
 	  text-align: center;
 	}
+
 	
 	.boxbg{
 		background: rgba(0, 51, 102, 0.30);
@@ -130,4 +131,26 @@
 		font-family: Tahoma, sans-serif;
 		font-size: 90%;
 		word-spacing: 5px;
+=======
+
+	#content{
+	  padding: 10px 25px 0px 25px;
+	  margin-left:50px;
+	  margin-right:50px;
 	}
+	
+	/**p, h3{
+	  padding: 0px 10px;
+}
+**/
+	.boxbg{
+		background: rgba(125, 85, 170, 0.30);
+		border-width:1px;
+		border-color: brown;
+		border-style: solid;
+		margin: 25px 10px 25px 10px;
+
+	}
+	h2{
+		margin: 0px; 
+		}
