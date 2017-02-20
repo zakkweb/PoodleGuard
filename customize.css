@@ -1,11 +1,17 @@
+	html{
+		height: 100%;
+	}
+	
 	body{
 		background-color: lavender;
-	  background-image:url("images/bg-left.png"), url("images/bg-right.png");
-	  background-repeat: repeat-y;
-	  background-position: left top, right top;
-	  background-attachment: fixed; 
-	  font-family: Verdana, sans-serif;
-	  margin: 0;
+		background-image:url("images/bg-left.png"), url("images/bg-right.png");
+		background-repeat: repeat-y;
+		background-position: left top, right top;
+		background-attachment: fixed; 
+		font-family: Verdana, sans-serif;
+		margin: 0;
+		padding: 0;
+		height: 100%;
 	}
 	
 	/************************************************************************************/
@@ -14,9 +20,34 @@
 	.bars{
 	  background-color: lightslategray;
 	  color:white;
-	  padding: 5px 0px 5px 0px;
-	  }
+	  padding: 5px 0px;
+	}
+
+	#header-index{
+		background-image: url(images/secbadge-sm.png), url(images/secbadge-sm.png), url(images/select-home.png);
+		background-repeat: no-repeat;
+		background-position: 5% 50%, 95% 50%, center;
+	}
 	
+	#header-classes{
+		background-image: url(images/secbadge-sm.png), url(images/secbadge-sm.png), url(images/select-classes.png);
+		background-repeat: no-repeat;
+		background-position: 5% 50%, 95% 50%, center;
+	}
+	
+	#header-about{
+		background-image: url(images/secbadge-sm.png), url(images/secbadge-sm.png), url(images/select-about.png);
+		background-repeat: no-repeat;
+		background-position: 5% 50%, 95% 50%, center;
+	}
+	
+	#header-contact{
+		background-image: url(images/secbadge-sm.png), url(images/secbadge-sm.png), url(images/select-contact.png);
+		background-repeat: no-repeat;
+		background-position: 5% 50%, 95% 50%, center;
+	}	
+
+	/** Taking out for image map
 	nav ul {
     margin: 0;
     padding: 0;
@@ -38,29 +69,65 @@
 	color: black;
 	}
 	
-	#current{ /* use for current page */
+	/* use for current page /
+	#current{
 	text-decoration: none;
 	background-color: lightsteelblue;
 	color: black;
 	padding: 5px 5px;
 	margin: 0px 25px 0px 0px;
 	}
+	**/
 	
 	footer{
 		font-size: small;
+		position: relative;
+		margin-top: -35px;
+		height: 35px;
+		clear: both;
 	}
 	
 	/************************************************************************************/
 	
 	/* Main Content */
+	#wrap{
+		min-height: 100%;
+	}
+	
+	main{
+		display: flex;
+		justify-content: space-around;
+		overflow: auto;
+		padding-bottom: 35px;
+	}
+	
 	.center{
 	  text-align: center;
 	}
-
-	#content{
-	  padding: 25px 100px;
+	
+	.boxbg{
+		background: rgba(0, 51, 102, 0.30);
+		border: 3px solid #003366;
+		padding: 10px;
+		background-image: url(images/stars.png);
+		background-clip: border-box;
+		background-origin: padding-box;
+		background-size: 1%;
+		box-shadow: 5px 5px 5px gray;
 	}
 	
-	p, h3{
-	  padding: 0px 25px;
+	main img{
+		border: 3px solid #003366;
+		border-radius: 10px;
+	}
+	
+	main img:hover, progress:hover, meter:hover{
+		opacity: 0.5;
+	}
+	
+	figcaption{
+		text-align: center;
+		font-family: Tahoma, sans-serif;
+		font-size: 90%;
+		word-spacing: 5px;
 	}
